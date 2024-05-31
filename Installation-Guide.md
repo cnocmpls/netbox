@@ -40,6 +40,20 @@ Follow these steps to set up the project on your local machine.
     python -m pip install -r requirements.txt
 
 
+# Configuration and Setting Update
+
+- After downloading dependencies, update the configuration and settings:
+
+    Navigate to the root directory and then to netbox/netbox.
+
+    Create the configuration.py file and copy the contents of configuration_example.py to configuration.py.
+
+    Add your own database connection credentials and enable the debugger (set DEBUG to True).
+
+    Navigate to settings.py and enable the debugger (set DEBUG to True) and disable development mode (set DEVELOPMENT to False).
+
+
+
 # Run the Project
 
 - Navigate to the folder containing the manage.py file and run the following commands:
